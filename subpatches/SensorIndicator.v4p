@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta29.2.dtd" >
-   <PATCH nodename="C:\Users\JL\Documents\GitHub\All_Patches\00_CapacitiveCover\subpatches\SensorIndicator.v4p" systemname="SensorIndicator" filename="C:\Users\JL\Documents\GitHub\All_Patches\00_CapacitiveCover\subpatches\SensorIndicator.v4p">
-   <BOUNDS type="Window" left="0" top="0" width="11640" height="14790">
+   <PATCH nodename="C:\Users\JL\Documents\GitHub\00_CapacitiveCover\subpatches\SensorIndicator.v4p" systemname="SensorIndicator" filename="C:\Users\JL\Documents\GitHub\All_Patches\00_CapacitiveCover\subpatches\SensorIndicator.v4p">
+   <BOUNDS type="Window" left="0" top="0" width="10785" height="12240">
    </BOUNDS>
    <NODE systemname="Segment (DX9)" nodename="Segment (DX9)" componentmode="Hidden" id="3">
    <BOUNDS type="Node" left="3210" top="9090" width="100" height="100">
@@ -385,7 +385,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="2070" top="2295" height="270" width="810">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" encoded="0" visible="0" pintype="Input" values="|Indicator for the Sensor Values based on two Segments.|">
+   <PIN pinname="Input String" slicecount="1" encoded="0" visible="0" pintype="Input" values="|Indicator for the sensor value.|">
    </PIN>
    <PIN pinname="Output String" visible="0" pintype="Output">
    </PIN>
