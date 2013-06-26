@@ -869,9 +869,9 @@
    </PIN>
    </NODE>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="141">
-   <BOUNDS type="Node" left="5175" top="9345" width="100" height="100">
+   <BOUNDS type="Node" left="5175" top="9090" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="5175" top="9345" width="1725" height="465">
+   <BOUNDS type="Box" left="5175" top="9090" width="1725" height="465">
    </BOUNDS>
    <PIN pinname="Y Input Value" visible="1" slicecount="1" values="0.0911342894393742">
    </PIN>
@@ -1003,21 +1003,21 @@
    <LINK srcnodeid="144" srcpinname="turquoise" dstnodeid="143" dstpinname="Background Color">
    </LINK>
    <LINK srcnodeid="141" srcpinname="Y Output Value" dstnodeid="107" dstpinname="SensorValue" hiddenwhenlocked="1" linkstyle="Bezier">
-   <LINKPOINT x="5205" y="11875">
+   <LINKPOINT x="5205" y="11705">
    </LINKPOINT>
-   <LINKPOINT x="6030" y="11975">
+   <LINKPOINT x="6030" y="11890">
    </LINKPOINT>
    </LINK>
    <LINK srcnodeid="141" srcpinname="Y Output Value" dstnodeid="146" dstpinname="Sensor" hiddenwhenlocked="1" linkstyle="Bezier">
-   <LINKPOINT x="5205" y="10053">
+   <LINKPOINT x="5205" y="9883">
    </LINKPOINT>
-   <LINKPOINT x="5205" y="9853">
+   <LINKPOINT x="5205" y="9768">
    </LINKPOINT>
    </LINK>
    <NODE nodename="IOBox (Value Advanced)" componentmode="InABox" id="152" systemname="IOBox (Value Advanced)">
-   <BOUNDS type="Node" left="7020" top="7800" width="0" height="0">
+   <BOUNDS type="Node" left="7185" top="7530" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="7020" top="7800" width="480" height="480">
+   <BOUNDS type="Box" left="7185" top="7530" width="480" height="480">
    </BOUNDS>
    <PIN pinname="Y Input Value" slicecount="1" values="1">
    </PIN>
@@ -1037,9 +1037,9 @@
    <LINK srcnodeid="152" srcpinname="Y Output Value" dstnodeid="139" dstpinname="Enabled">
    </LINK>
    <NODE nodename="IOBox (Enumerations)" componentmode="InABox" id="153" systemname="IOBox (Enumerations)">
-   <BOUNDS type="Node" left="7650" top="7800" width="0" height="0">
+   <BOUNDS type="Node" left="7650" top="8295" width="0" height="0">
    </BOUNDS>
-   <BOUNDS type="Box" left="7650" top="7800" width="1590" height="240">
+   <BOUNDS type="Box" left="7650" top="8295" width="1590" height="240">
    </BOUNDS>
    <PIN pinname="Input Enum" slicecount="1" values="COM20">
    </PIN>
@@ -1057,9 +1057,9 @@
    <LINK srcnodeid="154" srcpinname="Position Out" dstnodeid="63" dstpinname="SensorPositionIndicator">
    </LINK>
    <LINK srcnodeid="141" srcpinname="Y Output Value" dstnodeid="154" dstpinname="Go To Position" linkstyle="Bezier" hiddenwhenlocked="1">
-   <LINKPOINT x="5220" y="11620">
+   <LINKPOINT x="5220" y="11450">
    </LINKPOINT>
-   <LINKPOINT x="6765" y="11720">
+   <LINKPOINT x="6765" y="11635">
    </LINKPOINT>
    </LINK>
    <NODE id="155" componentmode="InABox" nodename="IOBox (String)" systemname="IOBox (String)" hiddenwhenlocked="0" managers="">
@@ -1115,9 +1115,9 @@
    <LINK srcnodeid="153" srcpinname="Output Enum" dstnodeid="139" dstpinname="ComPort">
    </LINK>
    <NODE systemname="IOBox (Value Advanced)" nodename="IOBox (Value Advanced)" componentmode="InABox" id="157">
-   <BOUNDS type="Node" left="7680" top="9345" width="100" height="100">
+   <BOUNDS type="Node" left="7680" top="9090" width="100" height="100">
    </BOUNDS>
-   <BOUNDS type="Box" left="7680" top="9345" width="1530" height="360">
+   <BOUNDS type="Box" left="7680" top="9090" width="1530" height="360">
    </BOUNDS>
    <PIN pinname="Y Input Value" visible="1" slicecount="1" values="0">
    </PIN>
