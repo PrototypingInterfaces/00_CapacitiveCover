@@ -17,7 +17,7 @@
  */
 
 CapacitiveSensorDue cs_4_2 = CapacitiveSensorDue(4,2);	// Start testing with approximately 20M resistor between pins 4 & 2, pin 2 is sensor pin, add a wire and or foil if desired
-
+unsigned long maximum = 30000; // limit the maxmum Sensor Value to some realistic value.
 void setup()					
 {
 	Serial.begin(9600);
@@ -30,7 +30,16 @@ void loop()
 	
 	//Serial.print(millis() - start);	// check on performance in milliseconds
 	//Serial.print(",");			// tab character for debug windown spacing
-	Serial.println(total1);			// print sensor output 1
+	
+        Serial.print(total1);
+        Serial.print(',');
+        
+        if (total1 > maximum)                   // limit output to a maximum value.
+        {                                       // this makes sense as max values can be 
+          total1 = maximum;                     // extreme big when sensor is touched directly. 
+        }
+        
+        Serial.println(total1);			// print sensor output 1
 	
 	delay(10);				// arbitrary delay to limit data to serial port
 }
