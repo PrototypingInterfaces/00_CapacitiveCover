@@ -1281,7 +1281,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="225" top="5760" width="0" height="0">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" values="Arduino\CapacitiveSensor_PI\CapacitiveSensor_PI.ino">
+   <PIN pinname="Input String" slicecount="1" values="Arduino\CapacitiveSensor_PI\CapacitiveSensorSketchPI.ino">
    </PIN>
    <PIN pinname="Default" slicecount="1" values="file.txt">
    </PIN>
