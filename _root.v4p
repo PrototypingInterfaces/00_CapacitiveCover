@@ -848,10 +848,10 @@
    <PIN pinname="ID" pintype="Output" visible="-1">
    </PIN>
    </NODE>
-   <NODE systemname="CapSense" filename="subs\CapSense.v4p" nodename="subs\CapSense.v4p" componentmode="InAWindow" id="139">
+   <NODE systemname="CapSense" filename="subs\CapSense.v4p" nodename="subs\CapSense.v4p" componentmode="Hidden" id="139">
    <BOUNDS type="Node" left="5175" top="8685" width="2550" height="270">
    </BOUNDS>
-   <BOUNDS type="Window" left="5205" top="3705" width="10245" height="11400">
+   <BOUNDS type="Window" left="4710" top="1665" width="10245" height="11400">
    </BOUNDS>
    <PIN pinname="ComPort" slicecount="1" visible="1" values="COM20">
    </PIN>
@@ -1165,7 +1165,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="6150" top="5235" width="795" height="240">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" values="9000">
+   <PIN pinname="Y Input Value" slicecount="1" values="3000">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
