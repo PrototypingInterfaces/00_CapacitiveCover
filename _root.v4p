@@ -848,7 +848,7 @@
    <PIN pinname="ID" pintype="Output" visible="-1">
    </PIN>
    </NODE>
-   <NODE systemname="CapSense" filename="subs\CapSense.v4p" nodename="subs\CapSense.v4p" componentmode="Hidden" id="139">
+   <NODE systemname="CapSense" filename="subs\CapSense.v4p" nodename="subs\CapSense.v4p" componentmode="InAWindow" id="139">
    <BOUNDS type="Node" left="5175" top="8685" width="2550" height="270">
    </BOUNDS>
    <BOUNDS type="Window" left="4710" top="1665" width="10245" height="11400">
@@ -1019,7 +1019,7 @@
    </BOUNDS>
    <BOUNDS type="Box" left="7185" top="7530" width="480" height="480">
    </BOUNDS>
-   <PIN pinname="Y Input Value" slicecount="1" values="1">
+   <PIN pinname="Y Input Value" slicecount="1" values="0">
    </PIN>
    <PIN pinname="Units" slicecount="1" values="||">
    </PIN>
@@ -1031,7 +1031,7 @@
    </PIN>
    <PIN pinname="Descriptive Name" slicecount="1" values="Enabled">
    </PIN>
-   <PIN pinname="X Input Value" slicecount="1" values="1">
+   <PIN pinname="X Input Value" slicecount="1" values="0">
    </PIN>
    </NODE>
    <LINK srcnodeid="152" srcpinname="Y Output Value" dstnodeid="139" dstpinname="Enabled">
@@ -1063,11 +1063,11 @@
    </LINKPOINT>
    </LINK>
    <NODE id="155" componentmode="InABox" nodename="IOBox (String)" systemname="IOBox (String)" hiddenwhenlocked="0" managers="">
-   <BOUNDS type="Box" width="3165" height="600" left="225" top="4110">
+   <BOUNDS type="Box" width="3210" height="885" left="225" top="4110">
    </BOUNDS>
    <BOUNDS type="Node" left="225" top="4110" height="270" width="810">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" encoded="0" visible="0" pintype="Input" values="|1. Install the Arduino CapSens Library to your Arduino IDE:|">
+   <PIN pinname="Input String" slicecount="1" encoded="0" visible="0" pintype="Input" values="|1. Install the &apos;CapacitiveSensor&apos; Library to your Arduino Library folder. Find the Library here:|">
    </PIN>
    <PIN pinname="Output String" visible="0" pintype="Output">
    </PIN>
@@ -1231,7 +1231,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="225" top="7515" height="270" width="810">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" encoded="0" visible="0" pintype="Input" values="|have fun! And don&apos;t blame the DIY Sensor.&cr;&lf; &cr;&lf;If you need ever a more realieble capacitive proximity sensor you can find cheap and chips with advanced callibration features for pennys in the market.|">
+   <PIN pinname="Input String" slicecount="1" encoded="0" visible="0" pintype="Input" values="|have fun! and don&apos;t blame the DIY Sensor.&cr;&lf; &cr;&lf;If you ever need a more realieble capacitive proximity sensor you can find cheap and chips with advanced callibration features at your prefered electronics dealer.|">
    </PIN>
    <PIN pinname="Output String" visible="0" pintype="Output">
    </PIN>
@@ -1299,7 +1299,7 @@
    </BOUNDS>
    <BOUNDS type="Node" left="225" top="5415" height="270" width="810">
    </BOUNDS>
-   <PIN pinname="Input String" slicecount="1" encoded="0" visible="0" pintype="Input" values="|2. Uplaod the Sketch from:|">
+   <PIN pinname="Input String" slicecount="1" encoded="0" visible="0" pintype="Input" values="|2. Upload the Sketch from:|">
    </PIN>
    <PIN pinname="Output String" visible="0" pintype="Output">
    </PIN>
@@ -1345,9 +1345,9 @@
    </PIN>
    </NODE>
    <NODE nodename="IOBox (String)" componentmode="InABox" id="166" systemname="IOBox (String)">
-   <BOUNDS type="Box" left="225" top="4710" width="2520" height="315">
+   <BOUNDS type="Box" left="225" top="4860" width="2520" height="315">
    </BOUNDS>
-   <BOUNDS type="Node" left="225" top="4710" width="0" height="0">
+   <BOUNDS type="Node" left="225" top="4860" width="0" height="0">
    </BOUNDS>
    <PIN pinname="Input String" slicecount="1" values="Arduino\">
    </PIN>
@@ -1380,6 +1380,8 @@
    <PIN pinname="Output String" visible="1">
    </PIN>
    </NODE>
-   <LINK srcnodeid="139" srcpinname="SensorValueNormalized" dstnodeid="141" dstpinname="Y Input Value">
+   <LINK srcnodeid="65" srcpinname="Y Output Value" dstnodeid="141" dstpinname="Y Input Value">
+   <LINKPOINT x="5160" y="9060">
+   </LINKPOINT>
    </LINK>
    </PATCH>
